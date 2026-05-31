@@ -1,0 +1,278 @@
+/* ============================================
+   src/styles/footer.css
+   ============================================ */
+
+/* ══════════════════════════════════════════
+   FOOTER BASE
+══════════════════════════════════════════ */
+.footer {
+  border-top:       1px solid var(--border);
+  background-color: var(--bg-secondary);
+}
+
+/* ══════════════════════════════════════════
+   TOP — editorial tagline
+══════════════════════════════════════════ */
+.footer__top {
+  padding-block: var(--space-24);
+  border-bottom: 1px solid var(--border);
+}
+
+.footer__top .container {
+  display:        flex;
+  flex-direction: column;
+  gap:            var(--space-8);
+}
+
+.footer__tagline {
+  font-size:   clamp(3rem, 7vw, 6.5rem);
+  line-height: 0.95;
+  color:       var(--ink);
+  font-style:  italic;
+  font-weight: 300;
+  max-width:   12ch;
+}
+
+.footer__cta {
+  align-self: flex-start;
+}
+
+/* ══════════════════════════════════════════
+   STAR DIVIDER
+══════════════════════════════════════════ */
+.footer-star-row {
+  display:         flex;
+  align-items:     center;
+  justify-content: center;
+  gap:             var(--space-6);
+  padding-block:   var(--space-6);
+  border-bottom:   1px solid var(--border);
+}
+
+.footer-star {
+  font-size:   0.7rem;
+  color:       var(--blue);
+  will-change: opacity;
+}
+
+/* ══════════════════════════════════════════
+   MID — brand + link columns
+══════════════════════════════════════════ */
+.footer__mid {
+  padding-block: var(--space-16);
+  border-bottom: 1px solid var(--border);
+}
+
+.footer__mid-inner {
+  display:               grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap:                   clamp(2rem, 5vw, 5rem);
+  align-items:           start;
+}
+
+/* ── Brand column ── */
+.footer__brand {
+  display:        flex;
+  flex-direction: column;
+  gap:            var(--space-4);
+}
+
+.footer__logo {
+  display:         inline-flex;
+  align-items:     center;
+  gap:             var(--space-2);
+  text-decoration: none;
+}
+
+.footer__logo-text {
+  font-family:    var(--font-display);
+  font-size:      var(--text-xl);
+  font-weight:    400;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color:          var(--ink);
+}
+
+.footer__logo-star {
+  font-size: 0.65rem;
+  color:     var(--blue);
+}
+
+.footer__brand-body {
+  font-size:   var(--text-sm);
+  color:       var(--ink-muted);
+  max-width:   32ch;
+  line-height: 1.7;
+}
+
+/* Socials */
+.footer__socials {
+  display:     flex;
+  align-items: center;
+  gap:         var(--space-2);
+  margin-top:  var(--space-2);
+}
+
+.footer__social-btn {
+  display:         flex;
+  align-items:     center;
+  justify-content: center;
+  width:           34px;
+  height:          34px;
+  border-radius:   2px;
+  border:          1px solid var(--border);
+  color:           var(--ink-muted);
+  text-decoration: none;
+  transition:
+    color        var(--duration-fast) var(--ease-out),
+    border-color var(--duration-fast) var(--ease-out),
+    background   var(--duration-fast) var(--ease-out);
+}
+
+.footer__social-btn:hover {
+  color:        var(--blue);
+  border-color: var(--blue);
+  background:   var(--blue-muted);
+}
+
+/* ── Link columns ── */
+.footer__col {
+  display:        flex;
+  flex-direction: column;
+  gap:            var(--space-4);
+}
+
+.footer__col-heading {
+  color:         var(--brown);
+  margin-bottom: var(--space-2);
+}
+
+.footer__col-list {
+  display:        flex;
+  flex-direction: column;
+  gap:            var(--space-3);
+}
+
+.footer__col-link {
+  font-family:     var(--font-body);
+  font-size:       var(--text-sm);
+  color:           var(--ink-secondary);
+  text-decoration: none;
+  transition:      color var(--duration-fast) var(--ease-out);
+  position:        relative;
+  display:         inline-block;
+}
+
+.footer__col-link::after {
+  content:          '';
+  position:         absolute;
+  bottom:           -1px;
+  left:             0;
+  width:            100%;
+  height:           1px;
+  background:       var(--blue);
+  transform:        scaleX(0);
+  transform-origin: left center;
+  transition:       transform var(--duration-base) var(--ease-out);
+}
+
+.footer__col-link:hover {
+  color: var(--ink);
+}
+
+.footer__col-link:hover::after {
+  transform: scaleX(1);
+}
+
+/* ══════════════════════════════════════════
+   BOTTOM BAR
+══════════════════════════════════════════ */
+.footer__bottom {
+  padding-block: var(--space-6);
+}
+
+.footer__bottom-inner {
+  display:         flex;
+  align-items:     center;
+  justify-content: space-between;
+  gap:             var(--space-4);
+  flex-wrap:       wrap;
+}
+
+.footer__copy {
+  color: var(--ink-muted);
+}
+
+.footer__legal-links {
+  display:     flex;
+  align-items: center;
+  gap:         var(--space-3);
+}
+
+.footer__legal-link {
+  font-family:     var(--font-mono);
+  font-size:       var(--text-xs);
+  letter-spacing:  0.12em;
+  text-transform:  uppercase;
+  color:           var(--ink-muted);
+  text-decoration: none;
+  transition:      color var(--duration-fast) var(--ease-out);
+}
+
+.footer__legal-link:hover {
+  color: var(--ink);
+}
+
+.footer__legal-sep {
+  color: var(--border-strong);
+}
+
+/* ══════════════════════════════════════════
+   RESPONSIVE
+══════════════════════════════════════════ */
+@media (max-width: 1024px) {
+  .footer__mid-inner {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .footer__brand {
+    grid-column: 1 / -1;
+    flex-direction: row;
+    flex-wrap:      wrap;
+    align-items:    flex-start;
+    gap:            var(--space-8);
+  }
+
+  .footer__brand-body {
+    max-width: 44ch;
+  }
+}
+
+@media (max-width: 640px) {
+  .footer__top {
+    padding-block: var(--space-16);
+  }
+
+  .footer__tagline {
+    font-size: clamp(2.5rem, 10vw, 3.5rem);
+  }
+
+  .footer__mid-inner {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .footer__brand {
+    grid-column:    1 / -1;
+    flex-direction: column;
+  }
+
+  .footer__bottom-inner {
+    flex-direction: column;
+    align-items:    flex-start;
+    gap:            var(--space-3);
+  }
+
+  .footer-star-row {
+    gap: var(--space-4);
+  }
+}
