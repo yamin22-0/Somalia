@@ -20,7 +20,7 @@ const categories = [
         latin:   'Rhincodon typus',
         status:  'Endangered',
         body:    `The largest fish on earth is a seasonal visitor to Somalia's offshore waters, drawn by the upwelling nutrients of the monsoon season. Individuals reaching 12 metres have been recorded in the Gulf of Aden.`,
-        img:     'https://images.unsplash.com/photo-1559827291-72f59b58a0bc?w=900&auto=format&fit=crop&q=80',
+        img:     'https://images.unsplash.com/photo-1540202404-b2979d19ed37?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2hhbGUlMjBzaGFya3xlbnwwfHwwfHx8MA%3D%3D',
         imgAlt:  'Whale shark gliding through blue water',
         stat:    { value: '12 m', label: 'Max length' },
       },
@@ -30,7 +30,7 @@ const categories = [
         latin:   'Eretmochelys imbricata',
         status:  'Critically Endangered',
         body:    'Nesting sites along the Berbera coast and the beaches north of Bosaso represent some of the most important hawksbill habitat remaining in the northwest Indian Ocean.',
-        img:     'https://images.unsplash.com/photo-1510832198440-a52376be4b2d?w=900&auto=format&fit=crop&q=80',
+        img:     'https://images.unsplash.com/photo-1591025207163-942350e47db2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8SGF3a3NiaWxsJTIwVHVydGxlfGVufDB8fDB8fHww',
         imgAlt:  'Hawksbill turtle swimming over reef',
         stat:    { value: '80 yrs', label: 'Lifespan' },
       },
@@ -40,7 +40,7 @@ const categories = [
         latin:   'Sphyraena barracuda',
         status:  'Least Concern',
         body:    `Schools of barracuda patrol the reef systems off Berbera in formations that can number in the thousands — a spectacle that experienced divers describe as one of the most overwhelming they've encountered.`,
-        img:     'https://images.unsplash.com/photo-1582967788606-a171c1080cb0?w=900&auto=format&fit=crop&q=80',
+        img:     'https://images.unsplash.com/photo-1646798578579-12e2bcc5864b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YmFyYWN1ZGF8ZW58MHx8MHx8fDA%3D',
         imgAlt:  'Barracuda school in clear blue water',
         stat:    { value: '1,000s', label: 'Per school' },
       },
@@ -50,7 +50,7 @@ const categories = [
         latin:   'Mobula birostris',
         status:  'Endangered',
         body:    `Manta rays cruise the surface currents off Somalia's northern coast during the northeast monsoon — feeding on the plankton blooms that the seasonal current brings from the open ocean.`,
-        img:     'https://images.unsplash.com/photo-1504567961542-e24d9439a724?w=900&auto=format&fit=crop&q=80',
+        img:     'https://plus.unsplash.com/premium_photo-1661963626161-0fb7da616bd1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8b2NlYW4lMjBtYW50YSUyMHJheXxlbnwwfHwwfHx8MA%3D%3D',
         imgAlt:  'Manta ray gliding through sunlit water',
         stat:    { value: '7 m', label: 'Wingspan' },
       },
@@ -65,11 +65,11 @@ const categories = [
     cards: [
       {
         id:      'wild-ass',
-        name:    'Somali Wild Ass',
+        name:    'Caass (Somali Wild Caass)',
         latin:   'Equus africanus somaliensis',
         status:  'Critically Endangered',
         body:    `One of the rarest large mammals on earth. Fewer than 600 individuals survive, scattered across the rocky semi-arid plains of Puntland and northern Somalia. The ancestor of the domestic donkey.`,
-        img:     'https://images.unsplash.com/photo-1598887142476-f5a8e1c30929?w=900&auto=format&fit=crop&q=80',
+        img:     'https://plus.unsplash.com/premium_photo-1720017257257-91b0fa7501db?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8d2lsZCUyMGFzc3xlbnwwfHwwfHx8MA%3D%3D',
         imgAlt:  'Wild ass on arid plains',
         stat:    { value: '< 600', label: 'Remaining' },
       },
@@ -79,7 +79,7 @@ const categories = [
         latin:   'Litocranius walleri',
         status:  'Near Threatened',
         body:    `The gerenuk — its name means "giraffe-necked" in Somali — is a gazelle with an extraordinarily elongated neck that allows it to browse tree foliage that no other antelope can reach, standing on its hind legs to feed.`,
-        img:     'https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=900&auto=format&fit=crop&q=80',
+        img:     'https://images.unsplash.com/photo-1687461314323-604865acdbd7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z2VyZW51a3xlbnwwfHwwfHx8MA%3D%3D',
         imgAlt:  'Gerenuk standing tall in savanna',
         stat:    { value: '1 m', label: 'Neck length' },
       },
@@ -89,7 +89,7 @@ const categories = [
         latin:   'Madoqua guentheri',
         status:  'Least Concern',
         body:    `These tiny antelopes — the height of a domestic cat — are found throughout Somalia's arid scrublands. They pair for life and are rarely seen apart, using a complex system of scent marking to define territory.`,
-        img:     'https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?w=900&auto=format&fit=crop&q=80',
+        img:     'https://images.unsplash.com/photo-1607417370345-cdd100ad2da3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Z3VudGhlcnMlMjBkaWslMjBkaWt8ZW58MHx8MHx8fDA%3D',
         imgAlt:  'Small dik-dik antelope in dry scrub',
         stat:    { value: '38 cm', label: 'Shoulder height' },
       },
@@ -118,7 +118,7 @@ const categories = [
         latin:   'Passer castanopterus',
         status:  'Least Concern',
         body:    `Endemic to Somalia and a small region of Ethiopia, the Somali sparrow is one of the defining birds of the lowland acacia scrub. Its sharp chirp is one of the most familiar sounds of the Somali countryside.`,
-        img:     'https://images.unsplash.com/photo-1444464666168-49d633b86797?w=900&auto=format&fit=crop&q=80',
+        img:     'https://media.istockphoto.com/id/1187325572/photo/superb-starling-lamprotornis-superbus-masai-mara-africa.webp?a=1&b=1&s=612x612&w=0&k=20&c=VWBTANSzzRLlJM9FdYidaNtbIfszFDXMl1H4xjlGE8w=',
         imgAlt:  'Small sparrow perched on a branch',
         stat:    { value: 'Endemic', label: 'Range' },
       },
@@ -128,7 +128,7 @@ const categories = [
         latin:   'Struthio molybdophanes',
         status:  'Vulnerable',
         body:    `Recognised as a distinct species from the common ostrich only in 2014, the Somali ostrich has blue-grey skin (rather than pink) on its neck and thighs. It ranges across the Horn of Africa's dry plains.`,
-        img:     'https://images.unsplash.com/photo-1548550023-2bdb3c5beed7?w=900&auto=format&fit=crop&q=80',
+        img:     'https://plus.unsplash.com/premium_photo-1719842310482-b6af1d247756?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c29tYWxpJTIwb3N0cmljaHxlbnwwfHwwfHx8MA%3D%3D',
         imgAlt:  'Ostrich on open plains',
         stat:    { value: '2014', label: 'Recognised species' },
       },
@@ -138,7 +138,7 @@ const categories = [
         latin:   'Merops revoilii',
         status:  'Least Concern',
         body:    `A small, vividly coloured bird endemic to Somalia and neighbouring areas. The Somali bee-eater is found in open, dry country, where it hunts insects in fast aerial sallies from a low perch.`,
-        img:     'https://images.unsplash.com/photo-1552728089-57bdde30beb3?w=900&auto=format&fit=crop&q=80',
+        img:     'https://media.istockphoto.com/id/1268487025/photo/bee-eater.webp?a=1&b=1&s=612x612&w=0&k=20&c=1zlUH-7r9KfjJv2uDTnVHoKE69J8nT3JVyWivH4-APg=',
         imgAlt:  'Brightly coloured bee-eater bird on branch',
         stat:    { value: 'Endemic', label: 'Range' },
       },
@@ -148,7 +148,7 @@ const categories = [
         latin:   'Phoeniconaias minor',
         status:  'Near Threatened',
         body:    `The coastal lagoons and tidal flats of Somalia's southern Indian Ocean coast host large flocks of lesser flamingos during migration — bright pink columns wading through shallow water, visible from kilometres away.`,
-        img:     'https://images.unsplash.com/photo-1516467508483-a7212febe31a?w=900&auto=format&fit=crop&q=80',
+        img:     'https://plus.unsplash.com/premium_photo-1669822277472-9d4e6e475520?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bGVzc2VyJTIwZmxhbWluZ298ZW58MHx8MHx8fDA%3D',
         imgAlt:  'Flamingos in a coastal lagoon',
         stat:    { value: '1.2 m', label: 'Height' },
       },
@@ -197,7 +197,7 @@ function HorizontalTrack({ category }) {
       style={{ height: `calc(100vh + ${(CARDS - 1) * 80}vh)` }}
     >
       {/* Sticky wrapper keeps the track in view while scrolling */}
-      <div className="h-track-sticky">
+      <div className="h-track-sticky" style={{ '--track-accent': category.accent }}>
 
         {/* Category label */}
         <div className="h-track-header container">

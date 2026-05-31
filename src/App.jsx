@@ -7,19 +7,19 @@ import Discover from './pages/Discover'
 import Culture from './pages/Culture'
 import Coastline from './pages/Coastline'
 import Wildlife from './pages/Wildlife'
+import PlanVisit from './pages/PlanVisit'
 
 export default function App() {
   return (
     <>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-         <Route path="discover" element={<Discover />} />
-          <Route path="culture" element={<Culture />} />
-          <Route path="/coastline" element={<Coastline />} />
-          <Route path="wildlife" element={<Wildlife />} />
-        
-
+        <Route path="/"           element={<Home />} />
+        <Route path="/discover"   element={<Discover />} />
+        <Route path="/culture"    element={<Culture />} />
+        <Route path="/coastline"  element={<Coastline />} />
+        <Route path="/wildlife"   element={<Wildlife />} />
+        <Route path="/plan-visit" element={<PlanVisit />} />
       </Routes>
       <Footer />
     </>
